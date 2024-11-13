@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poiret+One&family=Risque&family=Sixtyfour+Convergence&display=swap');
+
+* {
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://i.etsystatic.com/35903788/r/il/079179/4098971680/il_794xN.4098971680_qzdp.jpg");
+   
+    background-size: cover;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    line-height: 30px;
+    
+  /* Red background with 50% opacity */
+background: hsla(0, 24%, 93%, 0.466);  /* learned that hsla can change the background color according to the opacity without affecting the text*/
+        /* Text color remains fully opaque */
+        color: #000; 
+        font-weight: 400;
+        font-size: larger;
+    
+}
+
+ul {
+    line-height: 60px;
+    font-size: 100px;
+/* Red background with 50% opacity */
+background: hsla(0, 24%, 93%, 0.466);  /* learned that hsla can change the background color according to the opacity without affecting the text*/
+        /* Text color remains fully opaque */
+
+        font-weight: 400;
+        font-size: larger;
+}
+
+
+#past-work-list {
+    line-height: 50px;
+    font-size: 40px
+}
+
+#past-work-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#past-work-header {
+    font-size: 80px
+}
